@@ -169,6 +169,7 @@ const ss = {
   passphraseWordConfirm: '.passphrase-holder .word-option',
   passphraseConfirmButton: '.passphrase-is-correct-button',
   exploreAsGuestBtn: '.explore-as-guest-button',
+  downloadPdfBtn: '.download-pdf',
 };
 
 export default ss;
