@@ -32,4 +32,11 @@ describe('Electron App', () => {
     await app.client.click(ss.downloadPdfBtn);
     await app.client.pause(5000);
   });
+
+  it('Hardware wallet', async () => {
+    await app.electron.ipcMain('blablabla'); // Mock hw wallet conenction
+    /*
+      Test
+     */
+  });
 });
